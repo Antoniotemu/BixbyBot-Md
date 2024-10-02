@@ -33,9 +33,9 @@ conn.sendMessage(m.chat, { quoted: m })
 //conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 }
     
-if (command == 'topnazi') {
+if (command == 'topnegri') {
 let vn = './media/otaku.mp3'
-let top = `*TOP 10 NAZI*
+let top = `*TOP 10 NEGRACCI👨🏿*
     
 *_1.- ${user(a)}_*
 *_2.- ${user(b)}_*
@@ -51,7 +51,7 @@ m.reply(top, null, { mentions: [a, b, c, d, e, f, g, h, i, j]})
 conn.sendMessage(m.chat, { quoted: m })        
 //conn.sendFile(m.chat, vn, 'otaku.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 }}
-handler.help = handler.command = ['topgays','topnazi']
+handler.help = handler.command = ['topgays','topnegri']
 handler.tags = ['games']
 handler.group = true
 export default handler  
