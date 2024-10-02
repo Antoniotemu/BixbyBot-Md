@@ -37,9 +37,9 @@ if (command == 'topnegri') {
 let vn = './media/otaku.mp3'
 let top = `*TOP 10 NEGRACCI👨🏿*
     
-*_1.- ${user(a)}_*
-*_2.- ${user(b)}_*
-*_3.- ${user(c)}_*
+*_1.- ${user(a)}👨🏿_*
+*_2.- ${user(b)}👨🏾_*
+*_3.- ${user(c)}👨🏽_*
 *_4.- ${user(d)}_*
 *_5.- ${user(e)}_*
 *_6.- ${user(f)}_*
