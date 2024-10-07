@@ -35,7 +35,7 @@ conn.sendMessage(m.chat, { quoted: m })
     
 if (command == 'topnegri') {
 let vn = './media/otaku.mp3'
-let top = `*TOP 10 NEGRACCI👨🏿*
+let top = `*TOP 10 NEGRACCI!👨🏿*
     
 *_1.- ${user(a)}👨🏿_*
 *_2.- ${user(b)}👨🏾_*
